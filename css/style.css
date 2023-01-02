@@ -1,9 +1,7 @@
 /* Paletas de Cores
-Laranja = #F65C0C
-Ver/Lar = #D4320B
+Vermelho mais escuro = #6B0500
 Vermelho = #EB0D00
-Ver/Ros = #D40B4D
-Rosa = #F60CCE
+Vermelho menos escuro = #B80900
 */
 
 @charset "UTF-8";
@@ -16,5 +14,68 @@ Rosa = #F60CCE
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
+}
+
+header {
+    background-color: #6B0500;
+
+}
+
+header > h1 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.514);
+}
+
+header > p {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav {
+    background-color: #6B0500;
+    padding: 8px;
+    text-align: right;
+}
+
+nav > a {
+    color: #B80900;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .3s;
+    
+}
+
+nav > a:hover {
     background-color: #EB0D00;
+    color: #6B0500;
+}
+
+main {
+    background-color: #EB0D00;
+}
+
+main > h2 {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.308);
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+
 }
