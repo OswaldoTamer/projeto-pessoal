@@ -64,9 +64,23 @@ main > h2 {
 }
 
 section {
+    background-color: #EB0D00;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+}
+
+section.imagem {
+    /*box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.404);*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 50px;
+    
+    text-shadow: 1px 1px 0px black;
 }
 
 footer {
